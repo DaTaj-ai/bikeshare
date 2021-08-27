@@ -180,7 +180,7 @@ def viwe_row (df):
             break
         
 def main():
-    """ Start of the program """
+    """ Start of the program , entry point of the application"""
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
